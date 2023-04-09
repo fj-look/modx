@@ -1,1 +1,1 @@
-bash <(wget -qO- https://github.com/fj-look/modx/-/raw/main/install.sh)
+bash <(wget -qO- https://jsd.cdn.zzko.cn/gh/fj-look/modx@main/install.sh)
