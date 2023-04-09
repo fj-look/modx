@@ -116,9 +116,9 @@ config_after_install() {
 install_x-ui() {
     systemctl stop x-ui
     cd /usr/local/
-    url="https://github.com/fj-look/modx/releases/download/v1.0/x-ui-linux-amd64.tar.gz"
+    # url="https://github.com/fj-look/modx/releases/download/v1.0/x-ui-linux-amd64.tar.gz"
     echo -e "开始安装 x-ui"
-    wget -N --no-check-certificate -O /usr/local/x-ui-linux-amd64.tar.gz ${url}
+    # wget -N --no-check-certificate -O /usr/local/x-ui-linux-amd64.tar.gz ${url}
 
     if [[ -e /usr/local/x-ui/ ]]; then
         rm /usr/local/x-ui/ -rf
